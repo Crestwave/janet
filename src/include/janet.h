@@ -55,6 +55,7 @@ extern "C" {
     || defined(__NetBSD__) \
     || defined(__OpenBSD__) \
     || defined(__QNXNTO__) \
+    || defined(__HAIKU__) \
     || defined(sun) || defined(__sun) /* Solaris */ \
     || defined(unix) || defined(__unix) || defined(__unix__)
 #define JANET_UNIX 1
